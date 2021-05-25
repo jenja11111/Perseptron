@@ -24,9 +24,9 @@ namespace Perseptron
         private void buttonCreateTableMain_Click(object sender, EventArgs e)
         {
             Controller.CreateDataMain(dataGridViewMain);
-            Controller.ChangeLamda(dataGridViewMain, dataGridViewClass1);
-            Controller.ChangeLamda(dataGridViewMain, dataGridViewClass2);
-            Controller.ChangeLamda(dataGridViewMain, dataGridViewClass3);
+            //Controller.ChangeLamda(dataGridViewMain, dataGridViewClass1);
+           // Controller.ChangeLamda(dataGridViewMain, dataGridViewClass2);
+            //Controller.ChangeLamda(dataGridViewMain, dataGridViewClass3);
         }
 
         // Имитация обучения

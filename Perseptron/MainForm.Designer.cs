@@ -47,12 +47,12 @@
             this.tabPageM = new System.Windows.Forms.TabPage();
             this.dataGridViewClass3 = new System.Windows.Forms.DataGridView();
             this.tabPageRaspoznavanie = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.buttonFullRasponz = new System.Windows.Forms.Button();
             this.pictureBoxRaspozn = new System.Windows.Forms.PictureBox();
             this.buttonRaspozn = new System.Windows.Forms.Button();
             this.dataGridViewRaspozn = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.tabControlMain.SuspendLayout();
             this.tabPageMainTable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMain)).BeginInit();
@@ -276,6 +276,25 @@
             this.tabPageRaspoznavanie.TabIndex = 5;
             this.tabPageRaspoznavanie.Text = "Распознавание";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(794, 319);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 135);
+            this.label2.TabIndex = 7;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(657, 538);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 31);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Класс: ";
+            // 
             // buttonFullRasponz
             // 
             this.buttonFullRasponz.Location = new System.Drawing.Point(621, 587);
@@ -313,25 +332,6 @@
             this.dataGridViewRaspozn.RowTemplate.Height = 24;
             this.dataGridViewRaspozn.Size = new System.Drawing.Size(591, 713);
             this.dataGridViewRaspozn.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(657, 538);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 31);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Класс: ";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(794, 319);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 135);
-            this.label2.TabIndex = 7;
             // 
             // MainForm
             // 

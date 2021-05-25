@@ -59,7 +59,7 @@ namespace Perseptron
                 {
                     sum += (int)dataGridView.Rows[j].Cells[i].Value;                    
                 }
-                if(sum >= 4)
+                if(sum >= 1)
                 {
                     dataGridView.Rows[dataGridView.Rows.Count - 2].Cells[i].Value = sum;
                     dataGridView.Rows[dataGridView.Rows.Count - 1].Cells[i].Value = 1;
@@ -192,47 +192,31 @@ namespace Perseptron
             classSelect = classSelect / 70;
             switch ((int)classSelect)
             {
-                case 1:
+                case 6:
                     label.Text = "Класс: 2";
                     label1.Text = "К";
                     break;
-                case 2:
-                    if ((int)class2 == 2)
-                    {
-                        label.Text = "Класс: 2";
-                        label1.Text = "К";
-                    }
-                    else
-                    {
-                        label.Text = "Класс: 3";
-                        label1.Text = "М";
-                    }
+                case 7:
+                    label.Text = "Класс: 1";
+                    label1.Text = "Д";
                     break;
-                case 3:
-                    if ((int)class3 == 3)
-                    {
-                        label.Text = "Класс: 3";
-                        label1.Text = "М";
-                    }
-                    else
-                    {
-                        label.Text = "Класс: 1";
-                        label1.Text = "Д";
-                    }
+                case 8:
+                    label.Text = "Класс: 1";
+                    label1.Text = "Д";
                     break;
-                case 4:
-                    if ((int)class1 == 4)
-                    {
-                        label.Text = "Класс: 1";
-                        label1.Text = "Д";
-                    }
-                    else
-                    {
-                        label.Text = "Класс: 3";
-                        label1.Text = "М";
-                    }
+                case 9:
+                    label.Text = "Класс: 1";
+                    label1.Text = "Д";
                     break;
-                case 5:
+                case 10:
+                    label.Text = "Класс: 1";
+                    label1.Text = "М";
+                    break;
+                case 11:
+                    label.Text = "Класс: 1";
+                    label1.Text = "Д";
+                    break;
+                case 12:
                     label.Text = "Класс: 3";
                     label1.Text = "М";
                     break;                

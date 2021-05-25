@@ -12,8 +12,10 @@ namespace Perseptron
     {
         private static Random random = new Random();
         private static int value = random.Next(0, 449);
+        // Бесполезный класс, можн опридумать лучше
         private static int[] class123 = new int[450];
 
+        // Основная таблица
         public static void CreateDataMain(DataGridView dataGridView)
         {
             dataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCellsExceptHeader;
@@ -70,6 +72,7 @@ namespace Perseptron
             }
         }
 
+        // Таблица для обучения и распознования
         public static void CreateDataLearning(DataGridView dataGridView, PictureBox pictureBox)
         {            
             var ofd = new OpenFileDialog();
@@ -117,6 +120,7 @@ namespace Perseptron
 
         }
 
+        // Запись всех 1 в лямда 3 классов
         public static void CreateLamdaStart(DataGridView dataGridView)
         {
             dataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCellsExceptHeader;
@@ -131,6 +135,7 @@ namespace Perseptron
             }
         }
 
+        // С этого момента какая-то белеберда
         public static void ChangeLamda(DataGridView dataGridViewMain, DataGridView dataGridViewClass)
         {
             for (int i = 0; i < 450; i++)
@@ -146,7 +151,8 @@ namespace Perseptron
             }
 
         }
-
+        
+        // Никому не нужное умножение
         private static int[] Multiplication(DataGridView dataGridViewLearning, DataGridView dataGridViewClass)
         {
             int[] multi = new int[470];
@@ -159,6 +165,7 @@ namespace Perseptron
             return multi;
         }
 
+        // Выбор через суммы элементов и их среднего арифметического
         public static double classSelect(DataGridView dataGridViewLearning, DataGridView dataGridViewClass)
         {
             double classSelect = 0;
@@ -173,6 +180,7 @@ namespace Perseptron
             return classSelect;
         }
 
+        // Имитация
         public static void Raspoznavanie(DataGridView dataGridViewRaspozn, DataGridView dataGridViewClass, Label label, Label label1, double class1,double class2, double class3)
         {
             double classSelect = 0;
